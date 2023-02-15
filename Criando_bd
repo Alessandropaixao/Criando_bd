@@ -1,0 +1,6 @@
+CREATE TABLE alunos (
+  id SERIAL PRIMARY KEY,
+  nome VARCHAR (35) NOT NULL,
+  email VARCHAR (35) NOT NULL,
+  endereço VARCHAR (40) NOT NULL
+)
